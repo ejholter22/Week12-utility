@@ -39,3 +39,8 @@ def Union(list1, list2):
 def Intersection(list1, list2):
     intersection_list = list(set(list1) & set(list2))
     print("OUTPUT", intersection_list)
+	
+#NotIn
+def NotIn(list1, list2):
+    notin_list = set(list1).difference(list2)
+    print("OUTPUT", notin_list)
