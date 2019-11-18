@@ -29,3 +29,8 @@ def ScoreFinder(players, scores, individual):
             print("OUTPUT",x, "got a score of", scores[a])
     else:
         print("OUTPUT player not found")
+		
+#Union 
+def Union(list1, list2):
+    union_list = list(set(list1) | set(list2))
+    print("OUTPUT", union_list)
