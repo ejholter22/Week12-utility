@@ -15,3 +15,8 @@ def LoadFile(filename):
 #UpdateString
 def UpdateString(string1, string2, index):
     return string1[:index] + string2 + string1[index+1]
+	
+#FindWordCount 
+def FindWordCount(user_list, user_string):
+    count = user_list.count(user_string)
+    return count
